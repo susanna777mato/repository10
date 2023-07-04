@@ -3,3 +3,62 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.text {
+  background-color: aqua;
+  height: 200px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+h4 {
+  display: flex;
+  justify-content: center;
+  color: hsl(229, 6%, 66%);
+}
+
+.delivery {
+  padding-top: 45px;
+}
+
+.Technology {
+  padding-bottom: 20px;
+  font-size: 35px;
+}
+
+.backgraund {
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Sypervisor {
+  width: 300px;
+  height: 200px;
+  border: 10px solid red;
+  background-color: brown;
+  display: flex;
+}
+
+.conteiner2 {
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.team {
+  display: flex;
+  flex-direction: column;
+}
+
+.conteiner {
+  background-color: blueviolet;
+  width: 1000px;
+  height: 400px;
+}
