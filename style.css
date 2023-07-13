@@ -5,8 +5,11 @@
 }
 
 .text {
-  background-color: aqua;
-  height: 200px;
+  height: 400px;
+}
+
+body {
+  background-color: rgb(243, 231, 231);
 }
 
 h1 {
@@ -20,45 +23,167 @@ h4 {
   color: hsl(229, 6%, 66%);
 }
 
-.delivery {
-  padding-top: 45px;
+.backgraund {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Bulider {
+  justify-content: center;
+  align-content: center;
+  width: 300px;
+  height: 200px;
+  border: 2px solid hsl(0, 0%, 98%);
+  border-top: 5px solid hsl(0, 78%, 62%);
+  border-radius: 6px;
+  background-color: white;
+}
+
+.conteiner {
+  /* border: 10px solid hsl(0, 0%, 98%); */
+  width: 1200px;
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.team {
+  justify-content: center;
+  align-items: center;
+}
+
+.konteiner-bulid-karma {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 50px;
+  margin-bottom: 50px;
+}
+
+.karma {
+  border: 2px solid hsl(0, 0%, 98%);
+  border-top: 5px solid hsl(34, 97%, 64%);
+  border-radius: 6px;
+  background-color: white;
+  width: 300px;
+  height: 200px;
+}
+
+.Calculator-konteiner {
+  width: 300px;
+  height: 200px;
+  margin-left: 50px;
+  border-radius: 6px;
+  background-color: white;
+  border: 2px solid white;
+  border-top: 5px solid hsl(212, 86%, 64%);
+}
+
+.svg-Sypervisor {
+  display: flex;
+  align-content: flex-end;
+}
+
+.conteiner-2 {
+  width: 300px;
+  height: 200px;
+  border-radius: 6px;
+  background-color: white;
+  border: 2px solid white;
+  border-top: 5px solid hsl(180, 62%, 55%);
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+}
+
+.title-1 {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 8px;
+}
+
+.p-1 {
+  padding-left: 20px;
+  color: gray;
+}
+
+.svg-Sypervisor {
+  display: flex;
+  justify-content: right;
+  align-items: flex-end;
+  height: 80px;
+  padding-right: 20px;
+}
+
+.title-bulide {
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-bottom: 8px;
+}
+
+.p-2 {
+  padding-left: 20px;
+  color: gray;
+}
+
+.svg-2 {
+  display: flex;
+  justify-content: right;
+  align-items: flex-end;
+  height: 80px;
+  padding-right: 20px;
+}
+
+.karma-text1 {
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 8px;
+}
+
+.karma-text {
+  padding-left: 15px;
+  color: gray;
+}
+
+.svg-3 {
+  display: flex;
+  justify-content: right;
+  align-items: flex-end;
+  height: 80px;
+  padding-right: 20px;
+}
+
+.calculator-text {
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 8px;
+}
+
+.calculator-text1 {
+  padding-left: 15px;
+  color: gray;
+}
+
+.svg-4 {
+  display: flex;
+  justify-content: right;
+  align-items: flex-end;
+  height: 80px;
+  padding-right: 20px;
 }
 
 .Technology {
   padding-bottom: 20px;
-  font-size: 35px;
 }
 
-.backgraund {
-  height: 100vh;
-  background-color: white;
+.delivery {
+  font-size: 30px;
   display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-
-.Sypervisor {
-  width: 300px;
-  height: 200px;
-  border: 10px solid red;
-  background-color: brown;
-  display: flex;
-}
-
-.conteiner2 {
-  background-color: blue;
-  display: flex;
-  align-items: center;
   justify-content: center;
-}
-
-.team {
-  display: flex;
-  flex-direction: column;
-}
-
-.conteiner {
-  background-color: blueviolet;
-  width: 1000px;
-  height: 400px;
+  padding-top: 14px;
+  color: gray;
 }
