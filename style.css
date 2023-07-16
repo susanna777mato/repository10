@@ -4,9 +4,9 @@
   box-sizing: border-box;
 }
 
-.text {
+/* .text {
   height: 400px;
-}
+} */
 
 body {
   background-color: rgb(243, 231, 231);
@@ -43,7 +43,7 @@ h4 {
 
 .conteiner {
   /* border: 10px solid hsl(0, 0%, 98%); */
-  width: 1200px;
+  width: 1300px;
   height: 550px;
   display: flex;
   justify-content: center;
@@ -101,9 +101,7 @@ h4 {
 }
 
 .title-1 {
-  padding-top: 20px;
-  padding-left: 20px;
-  padding-bottom: 8px;
+  padding: 13px;
 }
 
 .p-1 {
@@ -120,9 +118,7 @@ h4 {
 }
 
 .title-bulide {
-  padding-top: 15px;
-  padding-left: 15px;
-  padding-bottom: 8px;
+  padding: 13px;
 }
 
 .p-2 {
@@ -139,9 +135,7 @@ h4 {
 }
 
 .karma-text1 {
-  padding-left: 15px;
-  padding-top: 15px;
-  padding-bottom: 8px;
+  padding: 13px;
 }
 
 .karma-text {
@@ -158,13 +152,18 @@ h4 {
 }
 
 .calculator-text {
-  padding-left: 15px;
+  /* padding-left: 15px;
   padding-top: 15px;
-  padding-bottom: 8px;
+  padding-bottom: 8px; */
+  padding: 13px;
 }
 
 .calculator-text1 {
-  padding-left: 15px;
+  padding-left: 20px;
+  color: gray;
+}
+
+.calculator-text1 {
   color: gray;
 }
 
